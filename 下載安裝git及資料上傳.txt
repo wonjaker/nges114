@@ -5,7 +5,7 @@ cd D:\nges114
 
 git init
 
-git remote add origin https://github.com/wonjaker/nges114
+git remote add origin https://github.com/wonjaker/nges114/
 
 git config --global user.email "wonjaker@chc.edu.tw"
 
@@ -13,9 +13,19 @@ git add .
 
 
 
-之後若要更新網站內容，只需在本地資料夾進行修改，然後重複執行以下三個指令即可：
+之後若要更新網站內容，只需在本地資料夾進行修改，然後重複執行以下指令即可：
+
+cd D:\nges114
+
+git init
+
+git config --global user.email "wonjaker@chc.edu.tw"
+git config --global user.email "fang@chc.edu.tw"
+
 git add .
+
 git commit -m "Your update message"
+
 git push origin main
 
 
@@ -28,3 +38,8 @@ https://github.com/account_verifications?verification=efb04d58-0d76-43a2-90b5-13
 https://github.com/
 帳號 wonjaker@nges.chc.edu.tw
 密碼 Nges7280442
+
+
+
+觀看網址：
+https://wonjaker.github.io/nges114/
